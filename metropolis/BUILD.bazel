@@ -1,0 +1,7 @@
+load("@rules_cc//cc:defs.bzl", "cc_binary")
+
+cc_binary(
+  name='metropolis',
+  srcs=['main.cpp', 'include/density.hpp', 'include/metropolis.hpp', 'include/utility.hpp'],
+  copts = ["--std=c++17"],
+)

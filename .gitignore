@@ -30,3 +30,13 @@
 *.exe
 *.out
 *.app
+
+# bazel files
+bazel-*
+*.bazel.lock
+
+# python files
+*.py
+
+# data files
+*.dat
